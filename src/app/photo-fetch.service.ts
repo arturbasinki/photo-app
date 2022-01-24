@@ -15,7 +15,7 @@ export class PhotoFetchService {
   constructor(private http: HttpClient) {}
 
   unsplashHttp: string = 'https://api.unsplash.com/photos/random';
-  clientID: string = 'wlwMx6z6PFhqZ3UTIHWOXHXkGsFCXC8S2dFY9tjOx1o';
+  clientID: string = '';
 
   getPhoto() {
     return this.http
